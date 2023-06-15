@@ -1,5 +1,5 @@
 {% set name = "lapy" %}
-{% set version = "0.6.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lapy-{{ version }}.tar.gz
-  sha256: 0b7340231dab4395175177893a4a50ed49aad705342e355b53360e56b7fc392d
+  sha256: c649d658c7952e41aba0970b2e0130dfc6e5da668222f2b4dcf84bae8d74b90c
 
 build:
   noarch: python
