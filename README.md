@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@m-reuter](https://github.com/m-reuter/)
 * [@mscheltienne](https://github.com/mscheltienne/)
 
-
-<!-- dummy commit to enable rerendering -->
-
