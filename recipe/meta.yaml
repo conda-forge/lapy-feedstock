@@ -1,5 +1,5 @@
 {% set name = "lapy" %}
-{% set version = "1.8.0" %}
+{% set version = "1.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/lapy-{{ version }}.tar.gz
-  sha256: 4fbae7f07b9bee9fe8305c86832fe490da29a6a45c48a721b34117e590ae7cae
+  sha256: 876e5a3ebdf0c71651db510e0ddfc4fa42109ad4493d9a11c9df48e6a7b48d75
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
   entry_points:
     - lapy-sys_info = lapy.commands.sys_info:run
 
