@@ -7,7 +7,17 @@ Home: https://github.com/Deep-MI/LaPy
 
 Package license: MIT
 
-Summary: Toolbox for Differential Geometry on Triangle and Tetrahedra Meshes (FEM, Laplace, Poisson, Heat Flow ...).
+Summary: Differential geometry and finite-element computations on triangle and tetrahedral meshes.
+
+Development: https://github.com/Deep-MI/LaPy
+
+Documentation: https://deep-mi.org/LaPy
+
+LaPy provides mesh data structures and vectorized algorithms for triangle and
+tetrahedral meshes: FEM solvers for Laplace, Poisson and heat equations, spectral
+shape descriptors (ShapeDNA), geodesics, curvature flows, conformal mapping,
+remeshing and topology correction.
+
 
 Current build status
 ====================
